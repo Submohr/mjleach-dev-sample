@@ -2,8 +2,8 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import App from './App';
 
-test('renders digitalocean docs', () => {
+test('renders hi im mleach', () => {
   const { getByText } = render(<App />);
-  const linkElement = getByText(/DigitalOcean Docs/i);
+  const linkElement = getByText(/Hi. I'm @mleach./i);
   expect(linkElement).toBeInTheDocument();
 });
