@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "./logo.svg";
+import me from "./me.png";
 import "./App.css";
 
 /**
@@ -15,7 +16,7 @@ export default function App() {
                 <img
                     className="col-span-2 row-span-3 animate-spin m-auto"
                     style={{animationDuration: "30s"}}
-                    src={logo}
+                    src={me}
                     alt="React Logo"
                     width="300"
                 />
