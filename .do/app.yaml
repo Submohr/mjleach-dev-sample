@@ -1,4 +1,8 @@
 name: sample-react
+domains:
+- domain: mleach.dev
+  type: PRIMARY 
+  zone: mleach.dev
 services:
 - environment_slug: node-js
   github:
